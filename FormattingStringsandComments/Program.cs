@@ -114,7 +114,7 @@ namespace FormattingStringsandComments
         {
             //string.Format() allows for substituin strings as well.
             //It retuns a string we can store for later
-            string totalLine = string.Format("Total: {0:c}", 25.39);
+            string totalLine = string.Format("Total: {0:c}", 25.39); //returns a string.
             Console.WriteLine(totalLine);
             Console.WriteLine("\nPress enter to continue...");
             Console.ReadLine();
